@@ -24,5 +24,4 @@ async function fetchDogImage() {
   }
 }
 
-// Llama a la función cuando la página se carga inicialmente
 window.onload = fetchDogImage;

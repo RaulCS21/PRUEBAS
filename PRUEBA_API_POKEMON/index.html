@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Información de Pokémon</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Información de Pokémon</h1>
+  <label for="pokemonSearch">Buscar Pokémon:</label>
+  <input type="text" id="pokemonSearch" placeholder="Número o nombre del Pokémon">
+  <button onclick="searchPokemon()">Buscar</button>
+  <p>Nombre: <span id="pokemonName"></span></p>
+  <p>Tipo: <span id="pokemonType"></span></p>
+  <img id="pokemonImage" alt="Imagen de Pokémon" />
+  <h2>Habilidades:</h2>
+  <ul id="pokemonAbilities"></ul>
+  <script src="script.js"></script>
+</body>
+</html>
